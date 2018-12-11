@@ -18,10 +18,10 @@ function getlocationsinfo(){
   
     try {
 
-    $server = "fbcoprd.database.windows.net";
-    $user = "adminfbco";
-    $pwd="Fundacion#123";
-    $dba="GestionCreditosFBCO";
+    $server = "";
+    $user = "";
+    $pwd="";
+    $dba="";
     $concetinfo=array("Database" =>$dba , "UID" =>$user, "PWD"=>$pwd, "CharacterSet" => "UTF-8");
     $conn= sqlsrv_connect($server,$concetinfo);
         
@@ -57,10 +57,10 @@ function flauten(){
     try {
        
    
-    $server = "fbcoprd.database.windows.net";
-    $user = "adminfbco";
-    $pwd="Fundacion#123";
-    $dba="GestionCreditosFBCO";
+    $server = "";
+    $user = "";
+    $pwd="";
+    $dba="";
     $concetinfo=array("Database" =>$dba , "UID" =>$user, "PWD"=>$pwd, "CharacterSet" => "UTF-8");
     $conn= sqlsrv_connect($server,$concetinfo);
         
@@ -97,10 +97,10 @@ function flauten2($id)
 {
   
     try{
-        $server = "fbcoprd.database.windows.net";
-        $user = "adminfbco";
-        $pwd="Fundacion#123";
-        $dba="GestionCreditosFBCO";
+        $server = "";
+        $user = "";
+        $pwd="";
+        $dba="";
         $concetinfo=array("Database" =>$dba , "UID" =>$user, "PWD"=>$pwd, "CharacterSet" => "UTF-8");
         $conn= sqlsrv_connect($server,$concetinfo);
             
@@ -173,10 +173,10 @@ function flauten2($id)
 
 function atms($id){
     try{
-        $server = "fbcoprd.database.windows.net";
-        $user = "adminfbco";
-        $pwd="Fundacion#123";
-        $dba="GestionCreditosFBCO";
+        $server = "";
+        $user = "";
+        $pwd="";
+        $dba="";
         $concetinfo=array("Database" =>$dba , "UID" =>$user, "PWD"=>$pwd, "CharacterSet" => "UTF-8");
         $conn= sqlsrv_connect($server,$concetinfo);   
         
