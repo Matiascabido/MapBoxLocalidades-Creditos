@@ -9,10 +9,10 @@ if (!$db_selected) {
 }*/
 
 
-$server = "fbcoprd.database.windows.net";
-$user = "adminfbco";
-$pwd="Fundacion#123";
-$dba="GestionCreditosFBCO";
+$server = "";
+$user = "";
+$pwd="";
+$dba="";
 $concetinfo=array("Database" =>$dba , "UID" =>$user, "PWD"=>$pwd, "CharacterSet" => "UTF-8");
 $conn= sqlsrv_connect($server,$concetinfo);
 if (!$conn) {
